@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 20,
+      "stock": 25,
+      "rating": 4.5,
+      "image": "https://example.com/images/headphones.jpg",
+      "description": "High-quality wireless headphones with noise cancellation and long battery life."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 18,
+      "rating": 4.3,
+      "image": "https://example.com/images/smartwatch.jpg",
+      "description": "Modern smartwatch with fitness tracking, heart-rate monitoring, and notifications."
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Fashion",
+      "price": 74.99,
+      "stock": 30,
+      "rating": 4.7,
+      "image": "https://example.com/images/running-shoes.jpg",
+      "description": "Comfortable and lightweight running shoes designed for everyday workouts."
+    },
+    {
+      "id": 4,
+      "name": "Laptop Backpack",
+      "category": "Accessories",
+      "price": 39.99,
+      "stock": 40,
+      "rating": 4.4,
+      "image": "https://example.com/images/backpack.jpg",
+      "description": "Durable laptop backpack with multiple compartments and water-resistant material."
+    },
+    {
+      "id": 5,
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 69.99,
+      "stock": 15,
+      "rating": 4.6,
+      "image": "https://example.com/images/keyboard.jpg",
+      "description": "RGB mechanical keyboard with responsive switches and a comfortable ergonomic design."
+    }
+  ]
+}

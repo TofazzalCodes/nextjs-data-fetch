@@ -12,8 +12,12 @@
 //     }
 // }
 
+import Post from "@/componets/Post";
+
+
+
 const getpost = async () =>{
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts",  );
     if(!res.ok){
         throw new Error("Failed to fetch posts")
     }
@@ -23,8 +27,13 @@ const getpost = async () =>{
 const PostsPage = async () => {
     const posts = await getpost()
     return (
-        <div>
+        <div className="w-10/12 mx-auto">
             <h2>Post are comming soon: {posts.length} </h2>
+            <div className="grid grid-cols-4 gap-4 ">
+                {
+                    posts.map((post) => <Post key={post.id}post={post}></Post> )
+                }
+            </div>
         </div>
     );
 };

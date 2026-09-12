@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Header = () => {
     const links = <>
-        <li> <Link href="/posts"><button>Item 1</button></Link> </li>
+        <li> <Link href="/posts"><button>Posts</button></Link> </li>
         <li> <Link href="/"><button>Item 2</button></Link> </li>
-        <li> <Link href="/"><button>Item 3</button></Link> </li>  
+        <li> <Link href="/products"><button>Products</button></Link> </li>  
     </>
     return (
         <div>

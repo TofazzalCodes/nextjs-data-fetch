@@ -2,9 +2,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Headphones",
+      "name": "Wireless mouse",
       "category": "Electronics",
-      "price": 20,
+      "price": 255.55,
       "stock": 25,
       "rating": 4.5,
       "image": "https://example.com/images/headphones.jpg",

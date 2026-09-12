@@ -6,6 +6,7 @@ const Header = () => {
         <li> <Link href="/posts"><button>Posts</button></Link> </li>
         <li> <Link href="/"><button>Item 2</button></Link> </li>
         <li> <Link href="/products"><button>Products</button></Link> </li>  
+        <li> <Link href="/books"><button>Books</button></Link> </li>  
     </>
     return (
         <div>

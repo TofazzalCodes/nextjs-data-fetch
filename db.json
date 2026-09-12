@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless mouse",
+      "name": "Wireless micky mouse mouse",
       "category": "Electronics",
       "price": 255.55,
       "stock": 25,
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "name": "Smart Watch",
+      "name": "Smart glass",
       "category": "Electronics",
       "price": 89.99,
       "stock": 18,

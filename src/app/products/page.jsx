@@ -1,7 +1,7 @@
 import Product from "@/componets/Product";
 
 const getProducts = async () => {
-    const res = await fetch("http://localhost:5000/products", { cache: "no-store"})
+    const res = await fetch("http://localhost:5000/products", { next: {revalidate:20}})
     return res.json()
 }
 
